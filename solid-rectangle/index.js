@@ -6,8 +6,7 @@ function printSolidRectangle(height, width) {
         let row = '';
         // inner loop iterates through columns
         for (let j = 0; j < width; j++) {
-            row += "*"; 
-          
+             row += "*"; 
         }
         // after each row  we need break the line
          pattern += row + '\n';
@@ -19,3 +18,12 @@ function printSolidRectangle(height, width) {
 
 const result = printSolidRectangle(4, 5);
 console.log(result)
+
+
+function solidPattrn(height,width){
+    for(let i= 0 ;i < height;i++){
+      console.log("x".repeat(width))
+    }
+}
+solidPattrn(4,4)
+
