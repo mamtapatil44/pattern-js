@@ -23,3 +23,26 @@ function ultaHfPyramid(n){
 }
 
 ultaHfPyramid(6)
+console.log("==================================")
+function roratedhfpyramid(h){
+    for(let i = 1 ;i <=h;i++){
+        let col= "";
+
+        for(let j =1 ; j <= h-i; j++){
+            col += " "
+
+        }
+
+        for(let j =1 ; j <= i; j++){
+            col += "*"
+
+        }
+
+        console.log(col)
+
+    }
+
+}
+
+roratedhfpyramid(5)
+console.log("==================================")
